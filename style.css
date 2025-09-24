@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fafafa; color: #333; }
+header { background: #e63946; padding: 1em; }
+header nav a { color: white; margin: 0 15px; text-decoration: none; }
+header nav a.active { font-weight: bold; text-decoration: underline; }
+.hero { padding: 50px; text-align: center; background: #f1faee; }
+.hero h1 { font-size: 2.5em; }
+.btn { display: inline-block; padding: 10px 20px; background: #457b9d; color: white; text-decoration: none; border-radius: 5px; }
+.menu-section { padding: 20px; }
+.menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 30px; }
+.menu-item { background: white; padding: 15px; border: 1px solid #ddd; border-radius: 8px; text-align: center; }
+footer { background: #1d3557; color: white; text-align: center; padding: 10px; margin-top: 20px; }
